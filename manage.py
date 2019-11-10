@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 import os
 import sys
+print('cpy === ', os.environ.get('DJANGO_MYSQL_USER'), os.environ.get('DJANGO_MYSQL_PASSWORD'))
+sys.path.append("/Users/cpy/PycharmProjects/DjangoBlog/venv/lib/python3.7/site-packages")
+# print('cpy===', sys.path)
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "DjangoBlog.settings")
