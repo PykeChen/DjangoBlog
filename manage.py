@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import os
 import sys
 print('cpy === ', os.environ.get('DJANGO_MYSQL_USER'), os.environ.get('DJANGO_MYSQL_PASSWORD'))
